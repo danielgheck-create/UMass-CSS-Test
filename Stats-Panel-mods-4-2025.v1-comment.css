@@ -1,0 +1,26 @@
+/* Stats Panel styles 
+  
+  /* fixes wrapping problem  
+@media (min-width: 64em) and (max-width: 96em) { /* 1024px -  1536px 
+    .stat__number {
+        font-size: 2.5rem;
+        /* color: red; 
+    }
+ }
+/* fixes stat layout, more area between sections 
+.stat {
+     padding-bottom:4em !important;
+ }
+/* fixes stat layout, reduces area between sections (from above css) on smaller screens 
+@media (max-width: 96em) {  /* 1536px 
+    .stat {
+        padding-bottom:3em !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .pin-scroll__content  {
+           padding-top: var(--space-1xl);
+     }
+}
+*/
